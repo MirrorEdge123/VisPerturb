@@ -12,7 +12,7 @@ The complete VisPerturb dataset is available on the Google Drive, Please downloa
 ## Data Structure
 ```txt
 VisPerturb/
-├─ visEval_dataset/                      # Original VisEval dataset
+├─ visEval_dataset/              # Original VisEval dataset
 ├─ NLQ_Chart_synonym/            # NLQ perturbation subset
 |  ├─ perturbed.json
 |  ├─ perturbed_single.json

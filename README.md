@@ -7,12 +7,12 @@ However, existing NL2Vis benchmarks largely assume explicit queries and normaliz
 To address this challenge, we present VisPerturb, a robustness benchmark that supports precise localization of NL2Vis robustness weaknesses under semantics-preserving variations in natural-language queries and database schema naming. VisPerturb defines 19 perturbation types distinguished by perturbation target and method. It comprises 7,430 perturbed evaluation instances, each paired with its original counterpart, supporting precise localization of robustness weaknesses.
 
 ## Data Download
-The complete VisPerturb dataset is available in the [latest release](../../releases/latest), Please [download `VisPerturb.zip`](../../releases/latest/download/VisPerturb.zip).
+The complete VisPerturb dataset is available on the Google Drive, Please download [`VisPerturb.rar`](https://drive.google.com/file/d/13ESRvHswG7mFBy4mkaYftMQEV4Uq68Ve/view?usp=drive_link).
 
 ## Data Structure
 ```txt
 VisPerturb/
-├─ VisEval/                      # Original VisEval dataset
+├─ visEval_dataset/                      # Original VisEval dataset
 ├─ NLQ_Chart_synonym/            # NLQ perturbation subset
 |  ├─ perturbed.json
 |  ├─ perturbed_single.json
